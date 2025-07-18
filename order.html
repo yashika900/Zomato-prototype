@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Order Summary</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+
+    <!-- Header Section (Zomato-style) -->
+    <header class="header">
+        <div class="logo">Zomato</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="pro.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Order Summary Section -->
+    <div class="order-summary-container">
+        <h2>Order Summary</h2>
+
+        <!-- Address Section -->
+        <div class="address-section">
+            <h3>Delivery Address</h3>
+            <p>Gopi Ben</p>
+            <p>XYZ Society, Satellite</p>
+            <p>Ahmedabad, Gujarat</p>
+            <p>Mobile: +91 9876543210</p>
+        </div>
+
+        <!-- Order Details -->
+        <div class="order-details">
+            <h3>Items Ordered</h3>
+            <div class="order-item">
+                <span class="item-name">Pizza Margherita</span>
+                <span class="item-quantity">Quantity: 1</span>
+                <span class="item-price">₹300</span>
+            </div>
+            <div class="order-item">
+                <span class="item-name">Cheese Garlic Bread</span>
+                <span class="item-quantity">Quantity: 1</span>
+                <span class="item-price">₹150</span>
+            </div>
+            <div class="order-item">
+                <span class="item-name">Coke</span>
+                <span class="item-quantity">Quantity: 2</span>
+                <span class="item-price">₹80</span>
+            </div>
+            <div class="total">
+                <span class="total-label"><strong>Total</strong></span>
+                <span class="total-price"><strong>₹530</strong></span>
+            </div>
+            <p class="delivery-time">Estimated Delivery Time: 30 mins</p>
+        </div>
+
+        <!-- Payment Options -->
+        <div class="payment-options">
+            <h3>Payment Options</h3>
+            <div class="payment-method">
+                <label><input type="radio" name="payment" checked> Credit Card</label>
+            </div>
+            <div class="payment-method">
+                <label><input type="radio" name="payment"> UPI</label>
+            </div>
+            <div class="payment-method">
+                <label><input type="radio" name="payment"> Cash on Delivery</label>
+            </div>
+        </div>
+
+        <!-- Promo Code Section -->
+        <div class="promo-code">
+            <h3>Have a Promo Code?</h3>
+            <input type="text" placeholder="Enter Promo Code">
+            <button class="apply-btn">Apply</button>
+            <div class="recommendation">
+                <h4>Recommended Coupons</h4>
+                <p><strong>GET50</strong> - 50% Off on First Order</p>
+                <p><strong>FREESHIP</strong> - Free Delivery on Orders Above ₹300</p>
+                <p><strong>MEAL20</strong> - 20% Off on Meals</p>
+            </div>
+        </div>
+
+        <!-- Delivery Tracking -->
+        <div class="delivery-tracking">
+            <h3>Delivery Tracking</h3>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <p>Order is on the way!</p>
+        </div>
+
+    </div>
+
+    <!-- Footer Section (Zomato-style) -->
+    <footer class="footer">
+        <p>&copy; 2024 Zomato. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

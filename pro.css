@@ -1,0 +1,157 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #f50e0e;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Zomato Pro Section */
+.zomato-pro {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.zomato-pro h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pro-benefits {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.benefit {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.benefit h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cta-btn {
+    background-color: #f50e0e;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cta-btn:hover {
+    background-color: #f50e0e;
+}
+
+/* User Reviews & Orders Section */
+.user-reviews-orders {
+    padding: 40px 0;
+}
+
+.user-reviews-orders h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pending-deliveries, .past-orders {
+    margin-bottom: 40px;
+}
+
+.pending-deliveries h3, .past-orders h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.order {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.order a {
+    color: white; /* Default color */
+    text-decoration: none;
+}
+
+.order p {
+    margin-bottom: 10px;
+}
+
+.track-order-btn, .review-btn {
+    background-color: #f50e0e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.track-order-btn:hover, .review-btn:hover {
+    background-color: #f50e0e;
+}
+/* Footer Styles */
+.footer {
+    background-color: #f50e0e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+}

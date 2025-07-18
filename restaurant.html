@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu - Zomato Clone</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="restaurant-info">
+                <h1>GWALIA</h1>
+                <div class="restaurant-details">
+                    <span>⭐ 4.5</span>
+                    <span>Delivery Time: 30 mins</span>
+                    <span>Distance: 2 km</span>
+                </div>
+            </div>
+            <div class="restaurant-actions">
+                <li>Add to Favorites</li>
+                <li>View Reviews</li>
+                <li><a href="home.html">Home</a></li>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filter Options -->
+    <section class="filters">
+        <div class="container">
+            <button class="filter-btn">Veg</button>
+            <button class="filter-btn">Non-Veg</button>
+            <button class="filter-btn">Healthy</button>
+            <button class="filter-btn">Popular</button>
+        </div>
+    </section>
+
+    <!-- Menu Layout -->
+    <section class="menu">
+        <div class="container">
+            <!-- Starters Section -->
+            <h2>Starters</h2>
+            
+            <!-- Starter 1 -->
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/dish_photos/c29/311c9fd1b0a850c43ddb65a7c02d3c29.jpg?output-format=webp" alt="Cheese Balls">
+                <div class="item-info">
+                    <h3>Cheese Balls</h3>
+                    <p>₹250 • 200 Calories</p>
+                    <p>Ingredients: Cheese, Breadcrumbs, Flour, Spices</p>
+                    <p>Delicious cheese-filled balls with a crispy coating.</p>
+                    <button class="customize-btn">Customize</button>
+                </div>
+            </div>
+
+            <!-- Starter 2 -->
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/dish_photos/f22/e645c95a76e1b8961d78e1de5c57ff22.jpg?output-format=webp" alt="Spring Rolls">
+                <div class="item-info">
+                    <h3>Spring Rolls</h3>
+                    <p>₹150 • 150 Calories</p>
+                    <p>Ingredients: Cabbage, Carrot, Noodles, Soy Sauce</p>
+                    <p>Fresh vegetable rolls with a tangy dip.</p>
+                    <button class="customize-btn">Customize</button>
+                </div>
+            </div>
+
+            <!-- Starter 3 -->
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/dish_photos/d99/0881b44d305a7fa7deaf17e9b3ac2d99.jpeg" alt="Chicken Wings">
+                <div class="item-info">
+                    <h3>Chicken Wings</h3>
+                    <p>₹200 • 250 Calories</p>
+                    <p>Ingredients: Chicken, Hot Sauce, Garlic, Butter</p>
+                    <p>Spicy wings served with ranch dressing.</p>
+                    <button class="customize-btn">Customize</button>
+                </div>
+            </div>
+
+            <!-- Main Course Section -->
+            <h2>Main Course</h2>
+            
+            <!-- Main Course 1 -->
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/dish_photos/4df/397df7e5094970e5cc76f592889e34df.jpg?output-format=webp" alt="Rajma Chawal">
+                <div class="item-info">
+                    <h3>Rajma Chawal</h3>
+                    <p>₹350 • 500 Calories</p>
+                    <p>Ingredients: Rice,Red beans, Olive Oil, Herbs, Vegetables</p>
+                    <p> Spicy and nutrious with a side of veggies.</p>
+                    <button class="customize-btn">Customize</button>
+                </div>
+            </div>
+
+            <!-- Main Course 2 -->
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/dish_photos/013/670d1f847b74d271eb1982f3bc771013.jpg?output-format=webp" alt="Paneer Butter Masala">
+                <div class="item-info">
+                    <h3>Paneer Butter Masala</h3>
+                    <p>₹300 • 600 Calories</p>
+                    <p>Ingredients: Paneer, Butter, Tomato, Cream</p>
+                    <p>Rich and creamy paneer cooked in a butter tomato sauce.</p>
+                    <button class="customize-btn">Customize</button>
+                </div>
+            </div>
+
+            <!-- Main Course 3 -->
+            <div class="menu-item">
+                <img src="data:image/jpeg;base64,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" alt="Pasta Alfredo">
+                <div class="item-info">
+                    <h3>Pasta Alfredo</h3>
+                    <p>₹270 • 700 Calories</p>
+                    <p>Ingredients: Pasta, Alfredo Sauce, Cheese, Garlic</p>
+                    <p>Creamy alfredo pasta topped with parmesan cheese.</p>
+                    <button class="customize-btn">Customize</button>
+                </div>
+            </div>
+
+            <!-- Desserts Section -->
+            <h2>Desserts</h2>
+
+            <!-- Dessert 1 -->
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/dish_photos/170/4f264d1d4b0f525079c4b16bd6925170.jpg?output-format=webp" alt="Chocolate Brownie">
+                <div class="item-info">
+                    <h3>Chocolate Brownie</h3>
+                    <p>₹120 • 400 Calories</p>
+                    <p>Ingredients: Cocoa, Butter, Flour, Sugar</p>
+                    <p>Decadent brownie with a rich chocolate flavor.</p>
+                    <button class="customize-btn">Customize</button>
+                </div>
+            </div>
+
+            <!-- Dessert 2 -->
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/dish_photos/1c3/d5502c47f1b4574b88022eec656081c3.jpg?output-format=webp" alt="Gulab Jamun">
+                <div class="item-info">
+                    <h3>Gulab Jamun</h3>
+                    <p>₹100 • 300 Calories</p>
+                    <p>Ingredients: Milk Solids, Sugar Syrup, Cardamom</p>
+                    <p>Sweet fried dough balls soaked in syrup.</p>
+                    <button class="customize-btn">Customize</button>
+                </div>
+            </div>
+
+            <!-- Dessert 3 -->
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/dish_photos/763/3afb183a69cc266bdeddacef1d9e9763.jpg?output-format=webp" alt="Ice Cream Sundae">
+                <div class="item-info">
+                    <h3>Ice Cream Sundae</h3>
+                    <p>₹150 • 350 Calories</p>
+                    <p>Ingredients: Ice Cream, Chocolate Sauce, Nuts, Cherries</p>
+                    <p>Vanilla ice cream with chocolate sauce and nuts.</p>
+                    <button class="customize-btn">Customize</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="reviews">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <p><strong>User 1:</strong> "The food was amazing! Highly recommend the Cheese Balls!"</p>
+                <span>⭐ 5.0</span>
+            </div>
+            <div class="review">
+                <p><strong>User 2:</strong> "Grilled Chicken was decent but could be spicier."</p>
+                <span>⭐ 3.8</span>
+            </div>
+            <!-- Add more reviews here -->
+        </div>
+    </section>
+    <!-- Footer Section (Zomato-style) -->
+    <footer class="footer">
+        <p>&copy; 2024 Zomato. All rights reserved.</p>
+    </footer>
+</body>
+</html>

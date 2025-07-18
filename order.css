@@ -1,0 +1,217 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2lzMTYwNjItaW1hZ2Uta3d2eWZrd3IuanBn.jpg"); /* Background image */
+    background-size: cover;
+    background-position: center;
+}
+
+h2, h3 {
+    color: #333;
+    padding-bottom: 10px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #f50e0e;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Order Summary Container */
+.order-summary-container {
+    width: 700px;  /* Increased width */
+    margin: 50px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.95);  /* Semi-transparent white for the card */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Spacing between sections */
+.order-summary-container > div {
+    margin-bottom: 30px;  /* Increased space between sections */
+}
+
+/* Address Section */
+.address-section p {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Order Details Styles */
+.order-details {
+    margin-bottom: 30px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Adds space between each item */
+}
+
+.order-item span {
+    flex: 1;
+    text-align: left; /* Aligns text to the left for each item */
+}
+
+.item-name {
+    flex: 2; /* Gives the item name more space */
+    text-align: left;
+}
+
+.item-quantity {
+    flex: 1;
+    text-align: center;
+}
+
+.item-price {
+    flex: 1;
+    text-align: right;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 20px; /* Adds space above the total */
+    font-size: 1.2rem;
+}
+
+.total-label {
+    flex: 2;
+}
+
+.total-price {
+    flex: 1;
+    text-align: right;
+    padding-right: 164px;
+}
+
+.delivery-time {
+    margin-top: 10px;
+    color: #555;
+    font-size: 1rem;
+    text-align: left; 
+}
+
+/* Payment Options */
+.payment-method {
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Promo Code Section */
+.promo-code input {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.apply-btn {
+    padding: 10px 20px;
+    background-color: #f50e0e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.apply-btn:hover {
+    background-color: #ff5757;
+}
+
+/* Coupon Recommendations */
+.recommendation {
+    margin-top: 10px;
+}
+
+.recommendation h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.recommendation p {
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* Delivery Tracking */
+.delivery-tracking {
+    margin-top: 20px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    height: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #4caf50;
+    height: 100%;
+    width: 70%; /* Adjust this width dynamically to show progress */
+    transition: width 0.5s;
+}
+
+.delivery-tracking p {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f50e0e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+}

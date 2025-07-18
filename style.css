@@ -1,0 +1,195 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #f50e0e;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant-info h1 {
+    font-size: 28px;
+}
+
+.restaurant-details {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.restaurant-details span {
+    margin-right: 15px;
+}
+
+.restaurant-actions {
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.restaurant-actions li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.restaurant-actions a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Filter Section */
+.filters {
+    background-color: #f5f5f5;
+    padding: 15px 0;
+}
+
+.filter-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    background-color: #ffebeb;
+}
+
+/* Menu Section */
+.menu {
+    padding: 40px 0;
+}
+
+.menu h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.item-info {
+    flex-grow: 1;
+}
+
+.item-info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.customize-btn {
+    background-color: #f50e0e;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.customize-btn:hover {
+    background-color: #f50e0e;
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+
+.reviews h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.review {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.right {
+    display: flex;
+  }
+  
+  .right .nav-item a {
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    font-weight: 200;
+    padding: 0.8rem;
+  }
+/* Footer Styles */
+.footer {
+    background-color: #f50e0e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+}/* Footer Styles */
+.footer {
+    background-color: #f50e0e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+}/* Footer Styles */
+.footer {
+    background-color: #f50e0e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+}
